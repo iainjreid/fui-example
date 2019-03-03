@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "postinstall": "bower install",
+    "build": "polymer build",
+    "start": "polymer serve"
+  },
+  "dependencies": {
+    "@chaff/fui": "0.0.1"
+  },
+  "license": "MIT",
+  "private": true
+}
