@@ -8,6 +8,7 @@ script:
 
 deploy:
   provider: pages
+  github-token: $GITHUB_TOKEN
   skip-cleanup: true
   on:
     branch: master
