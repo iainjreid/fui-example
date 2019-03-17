@@ -1,18 +1,6 @@
 const { main, section, div } = require("@chaff/fui-core");
 
-const template = document.createElement('template');
+const app =
+  main.add(section.add(div.add(() => document.createTextNode("Hello World"))))
 
-document.body.appendChild(elementFromString(
-  main(
-    section(
-      div(
-        "Hello World"
-      )
-    )
-  )
-));
-
-function elementFromString(str) {
-  template.innerHTML = str.trim();
-  return template.content.firstChild;
-}
+document.body.appendChild(app())
