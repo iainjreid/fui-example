@@ -1,3 +1,6 @@
 # Fui Example
 
-This is a sandbox repository using the funtional UI framework, [Fui](https://github.com/iainreid820/fui#readme).
+![Travis](https://img.shields.io/travis/iainreid820/fui-example/master.svg?style=flat-square)
+![Depfu](https://img.shields.io/depfu/iainreid820/fui-example.svg?style=flat-square)
+
+This is a sandbox repository using the funtional UI framework, [Fui](https://git.io/fjvBn).
