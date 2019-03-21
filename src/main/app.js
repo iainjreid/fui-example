@@ -1,6 +1,6 @@
-const { main, section, div } = require("@chaff/fui-core");
+const { main, section, div } = require("@chaff/fui/core");
 
 const app =
-  main.add(section.add(div.add(() => document.createTextNode("Hello World"))))
+  main.add(section.add(div.of("Hello World")))
 
 document.body.appendChild(app())
