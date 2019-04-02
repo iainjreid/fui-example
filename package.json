@@ -4,7 +4,7 @@
     "build": "webpack"
   },
   "dependencies": {
-    "@chaff/fui": "^0.0.7"
+    "@chaff/fui": "^0.0.11"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^1.0.1",
