@@ -12,9 +12,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist')
   },
   plugins: [
-    new CleanWebpackPlugin([
-      'dist'
-    ]),
+    new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: 'Fui Example'
     })
